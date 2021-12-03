@@ -193,7 +193,7 @@
                      <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>false</layerInvert>
                      <alignWithHead>true</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <drawnInBed>true</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
                      <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -205,7 +205,7 @@
                      <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>false</layerInvert>
                      <alignWithHead>true</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <drawnInBed>true</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
                      <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -217,24 +217,32 @@
                      <inFrontOfBody>false</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>false</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <offsets>
                         <north>
                            <layerOffset>-0.25</layerOffset>
                            <bodyTypes>
-                              <Male>(0, -0.2)</Male>
-                              <Female>(0, -0.2)</Female>
-                              <Thin>(0, -0.2)</Thin>
+                              <Male>(0, -0.32)</Male>
+                              <Female>(0, -0.33)</Female>
+                              <Thin>(0, -0.30)</Thin>
                            </bodyTypes>
                         </north>
                         <east>
                            <layerOffset>-0.1</layerOffset>
                            <bodyTypes>
-                              <Male>(0, 0.2)</Male>
-                              <Female>(0, 0.2)</Female>
-                              <Thin>(0, 0.2)</Thin>
+                              <Male>(0.19, -0.12)</Male>
+                              <Female>(0.2, -0.10)</Female>
+                              <Thin>(0.19, -0.08)</Thin>
                            </bodyTypes>
                         </east>
+                        <south>
+                           <layerOffset>-0.1</layerOffset>
+                           <bodyTypes>
+                              <Male>(0, -0.29)</Male>
+                              <Female>(0.01, -0.29)</Female>
+                              <Thin>(0, -0.34)</Thin>
+                           </bodyTypes>
+                        </south>
                      </offsets>
                      <drawnInBed>false</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
@@ -314,7 +322,7 @@
                      <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>false</layerInvert>
                      <alignWithHead>true</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <drawnInBed>true</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
                      <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -326,7 +334,7 @@
                      <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>false</layerInvert>
                      <alignWithHead>true</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <drawnInBed>true</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
                      <scaleWithPawnDrawsize>true</scaleWithPawnDrawsize>
@@ -338,24 +346,32 @@
                      <inFrontOfBody>false</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>false</alignWithHead>
-                     <drawSize>1.0</drawSize>
+                     <drawSize>0.9</drawSize>
                      <offsets>
                         <north>
                            <layerOffset>-0.25</layerOffset>
                            <bodyTypes>
-                              <Male>(0, -0.2)</Male>
-                              <Female>(0, -0.2)</Female>
-                              <Thin>(0, -0.2)</Thin>
+                              <Male>(0, -0.32)</Male>
+                              <Female>(0, -0.33)</Female>
+                              <Thin>(0, -0.30)</Thin>
                            </bodyTypes>
                         </north>
                         <east>
                            <layerOffset>-0.1</layerOffset>
                            <bodyTypes>
-                              <Male>(0, 0.2)</Male>
-                              <Female>(0, 0.2)</Female>
-                              <Thin>(0, 0.2)</Thin>
+                              <Male>(0.19, -0.12)</Male>
+                              <Female>(0.2, -0.10)</Female>
+                              <Thin>(0.19, -0.08)</Thin>
                            </bodyTypes>
                         </east>
+                        <south>
+                           <layerOffset>-0.1</layerOffset>
+                           <bodyTypes>
+                              <Male>(0, -0.29)</Male>
+                              <Female>(0.01, -0.29)</Female>
+                              <Thin>(0, -0.34)</Thin>
+                           </bodyTypes>
+                        </south>
                      </offsets>
                      <drawnInBed>false</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
