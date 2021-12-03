@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <BodyPartDef>
+    <defName>AURA_AuRaTail</defName>
+    <label>tail</label>
+    <hitPoints>10</hitPoints>
+    <skinCovered>true</skinCovered>
+    <canScarify>true</canScarify>
+  </BodyPartDef>
+  
+  <BodyPartDef>
+    <defName>AURA_AuRaHorns</defName>
+    <label>horns</label>
+    <hitPoints>20</hitPoints>
+    <frostbiteVulnerability>1.5</frostbiteVulnerability>
+    <permanentInjuryChanceFactor>0</permanentInjuryChanceFactor>
+    <skinCovered>false</skinCovered>
+    <solid>true</solid>
+    <alive>false</alive>
+    <bleedRate>0</bleedRate>
+  </BodyPartDef>
+
+</Defs>
