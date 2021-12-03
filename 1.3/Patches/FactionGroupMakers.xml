@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationSequence">
+		<operations>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_RaenMercenary_Gunner>2</AURA_RaenMercenary_Gunner>
+          <AURA_RaenVillager>1</AURA_RaenVillager>
+          <AURA_RaenTown_Guard>3</AURA_RaenTown_Guard>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <AURA_RaenMercenary_Gunner>2</AURA_RaenMercenary_Gunner>
+          <AURA_RaenVillager>1</AURA_RaenVillager>
+          <AURA_RaenTown_Guard>3</AURA_RaenTown_Guard>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[3]/guards</xpath>
+        <value>
+          <AURA_RaenMercenary_Gunner>2</AURA_RaenMercenary_Gunner>
+          <AURA_RaenVillager>1</AURA_RaenVillager>
+          <AURA_RaenTown_Guard>3</AURA_RaenTown_Guard>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <AURA_RaenMercenary_Gunner>2</AURA_RaenMercenary_Gunner>
+          <AURA_RaenVillager>1</AURA_RaenVillager>
+          <AURA_RaenTown_Guard>3</AURA_RaenTown_Guard>
+        </value>
+      </li>
+	  
+	  <!-- ===================================== -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_RaenDrifter>2</AURA_RaenDrifter>
+          <AURA_RaenPirate>2</AURA_RaenPirate>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <AURA_RaenPirate>2</AURA_RaenPirate>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[6]/options</xpath>
+        <value>
+          <AURA_RaenDrifter>2</AURA_RaenDrifter>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <AURA_RaenPirate>2</AURA_RaenPirate>
+        </value>
+      </li>
+	  
+	  <!-- ================================== -->
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+          <AURA_RaenTribal_Warrior>1</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Warrior>2</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+          <AURA_RaenTribal_Warrior>2</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+	
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[5]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+          <AURA_RaenTribal_Warrior>2</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[6]/guards</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+          <AURA_RaenTribal_Warrior>2</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+          <AURA_RaenTribal_Warrior>2</AURA_RaenTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[8]/options</xpath>
+        <value>
+          <AURA_RaenTribal_Archer>2</AURA_RaenTribal_Archer>
+        </value>
+      </li>
+	  
+	  <!-- Xaela -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_XaelaMercenary_Gunner>2</AURA_XaelaMercenary_Gunner>
+          <AURA_XaelaVillager>1</AURA_XaelaVillager>
+          <AURA_XaelaTown_Guard>3</AURA_XaelaTown_Guard>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <AURA_XaelaMercenary_Gunner>2</AURA_XaelaMercenary_Gunner>
+          <AURA_XaelaVillager>1</AURA_XaelaVillager>
+          <AURA_XaelaTown_Guard>3</AURA_XaelaTown_Guard>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[3]/guards</xpath>
+        <value>
+          <AURA_XaelaMercenary_Gunner>2</AURA_XaelaMercenary_Gunner>
+          <AURA_XaelaVillager>1</AURA_XaelaVillager>
+          <AURA_XaelaTown_Guard>3</AURA_XaelaTown_Guard>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="OutlanderFactionBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <AURA_XaelaMercenary_Gunner>2</AURA_XaelaMercenary_Gunner>
+          <AURA_XaelaVillager>1</AURA_XaelaVillager>
+          <AURA_XaelaTown_Guard>3</AURA_XaelaTown_Guard>
+        </value>
+      </li>
+	  
+	  <!-- ===================================== -->
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_XaelaDrifter>2</AURA_XaelaDrifter>
+          <AURA_XaelaPirate>2</AURA_XaelaPirate>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <AURA_XaelaPirate>2</AURA_XaelaPirate>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[6]/options</xpath>
+        <value>
+          <AURA_XaelaDrifter>2</AURA_XaelaDrifter>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="PirateBandBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <AURA_XaelaPirate>2</AURA_XaelaPirate>
+        </value>
+      </li>
+	  
+	  <!-- ================================== -->
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[1]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+          <AURA_XaelaTribal_Warrior>1</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[2]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+        </value>
+      </li>
+
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[3]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Warrior>2</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[4]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+          <AURA_XaelaTribal_Warrior>2</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+	
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[5]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+          <AURA_XaelaTribal_Warrior>2</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[6]/guards</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+          <AURA_XaelaTribal_Warrior>2</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+	 
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[7]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+          <AURA_XaelaTribal_Warrior>2</AURA_XaelaTribal_Warrior>
+        </value>
+      </li>
+	  
+      <li Class="PatchOperationAdd">
+        <xpath>Defs/FactionDef[@Name="TribeBase"]/pawnGroupMakers/li[8]/options</xpath>
+        <value>
+          <AURA_XaelaTribal_Archer>2</AURA_XaelaTribal_Archer>
+        </value>
+      </li>
+
+		</operations>
+	</Operation>
+
+</Patch>
