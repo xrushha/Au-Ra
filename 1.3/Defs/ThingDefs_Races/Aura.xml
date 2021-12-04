@@ -190,7 +190,7 @@
                   <li>
                      <bodyPart>AURA_AuRaHorns</bodyPart>
                      <path>Things/Pawn/Aura_Raen/Horns/Male_Raen_Horn/Male_Raen_Horn</path>
-                     <inFrontOfBody>false</inFrontOfBody>
+                     <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>true</alignWithHead>
                      <drawSize>0.9</drawSize>
@@ -202,7 +202,7 @@
                   <li>
                      <bodyPart>AURA_AuRaHorns</bodyPart>
                      <path>Things/Pawn/Aura_Raen/Horns/Female_Raen_Horn/Female_Raen_Horn</path>
-                     <inFrontOfBody>false</inFrontOfBody>
+                     <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>true</alignWithHead>
                      <drawSize>0.9</drawSize>
@@ -319,7 +319,7 @@
                   <li>
                      <bodyPart>AURA_AuRaHorns</bodyPart>
                      <path>Things/Pawn/Aura_Xaela/Horns/Male_Xaela_Horn/Male_Xaela_Horn</path>
-                     <inFrontOfBody>false</inFrontOfBody>
+                     <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>true</alignWithHead>
                      <drawSize>0.9</drawSize>
@@ -331,7 +331,7 @@
                   <li>
                      <bodyPart>AURA_AuRaHorns</bodyPart>
                      <path>Things/Pawn/Aura_Xaela/Horns/Female_Xaela_Horn/Female_Xaela_Horn</path>
-                     <inFrontOfBody>false</inFrontOfBody>
+                     <inFrontOfBody>true</inFrontOfBody>
                      <layerInvert>true</layerInvert>
                      <alignWithHead>true</alignWithHead>
                      <drawSize>0.9</drawSize>
