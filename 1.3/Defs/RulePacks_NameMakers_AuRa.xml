@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RulePackDef>
+		<defName>NamerRaenMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[RaenMFirst] [RaenLast]</li>
+			
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>RaenMFirst</keyword>
+					<path>Names/Raen_Male_First</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>RaenLast</keyword>
+					<path>Names/Raen_Last</path>
+				</li>
+				
+				
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerRaenFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[RaenFFirst] [RaenLast]</li>
+			
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>RaenFFirst</keyword>
+					<path>Names/Raen_Female_First</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>RaenLast</keyword>
+					<path>Names/Raen_Last</path>
+				</li>
+				
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+
+	<RulePackDef>
+		<defName>NamerXaelaMale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[XaelaMFirst] [XaelaLast]</li>
+			
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>XaelaMFirst</keyword>
+					<path>Names/Xaela_Male_First</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>XaelaLast</keyword>
+					<path>Names/Xaela_Last</path>
+				</li>
+				
+				
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+	
+	<RulePackDef>
+		<defName>NamerXaelaFemale</defName>
+		<rulePack>
+			<rulesStrings>
+				<li>name->[XaelaFFirst] [XaelaLast]</li>
+			
+			</rulesStrings>
+			<rulesRaw>
+				<li Class="Rule_File">
+					<keyword>XaelaFFirst</keyword>
+					<path>Names/Xaela_Female_First</path>
+				</li>
+				
+				<li Class="Rule_File">
+					<keyword>XaelaLast</keyword>
+					<path>Names/Xaela_Last</path>
+				</li>
+				
+				
+			</rulesRaw>
+		</rulePack>
+	</RulePackDef>
+
+</Defs>

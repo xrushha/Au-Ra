@@ -3,7 +3,7 @@
 
    <AlienRace.ThingDef_AlienRace ParentName="BasePawn" Name="AURA_AuRa" Abstract="True">
       <label>Au Ra</label>
-      <description>tbd.</description>
+      <description>One of the races of xenohumans discovered on the distant world of Eorzea.  This race in particular sports lizard-like scales and tails and sensory horns in place of human ears, bringing to mind Old Terra's legends of dragons.  There is a split between dark and light scales leading to a cultural divide, but otherwise appear to be of the same race.  Records translated from many old Eorzean tomes indicate that at one time there appeared to be a large sexual dimorphism of size in the Au Ra, but centuries of evolution - and potentially breeding with other humanlike races - has eliminated any size differences between both genders and species.  It is currently unknown if the same geneticists responsible for the Miqo'te had their hand in the Au Ra as well.</description>
       <alienRace>
          <generalSettings>
             <maleGenderProbability>0.50</maleGenderProbability>
@@ -39,6 +39,7 @@
          <LeatherAmount>75</LeatherAmount>
          <RoyalFavorValue>3</RoyalFavorValue>
          <IncomingDamageFactor>0.95</IncomingDamageFactor>
+         <PawnBeauty>2</PawnBeauty> -->
       </statBases>
       <tools>
          <li>
@@ -230,9 +231,9 @@
                         <east>
                            <layerOffset>-0.1</layerOffset>
                            <bodyTypes>
-                              <Male>(0.19, -0.12)</Male>
-                              <Female>(0.2, -0.10)</Female>
-                              <Thin>(0.19, -0.08)</Thin>
+                              <Male>(0.32, -0.15)</Male>
+                              <Female>(0.32, -0.06)</Female>
+                              <Thin>(0.31, -0.07)</Thin>
                            </bodyTypes>
                         </east>
                         <south>
@@ -308,6 +309,9 @@
             </li>
          </graphicPaths>
       </alienRace>
+	  <race>
+	  <nameGenerator>NamerRaenMale</nameGenerator>
+	<nameGeneratorFemale>NamerRaenFemale</nameGeneratorFemale></race>
    </AlienRace.ThingDef_AlienRace>
    
    <AlienRace.ThingDef_AlienRace ParentName="AURA_AuRa">
@@ -359,9 +363,9 @@
                         <east>
                            <layerOffset>-0.1</layerOffset>
                            <bodyTypes>
-                              <Male>(0.19, -0.12)</Male>
-                              <Female>(0.2, -0.10)</Female>
-                              <Thin>(0.19, -0.08)</Thin>
+                              <Male>(0.32, -0.15)</Male>
+                              <Female>(0.32, -0.06)</Female>
+                              <Thin>(0.31, -0.07)</Thin>
                            </bodyTypes>
                         </east>
                         <south>
@@ -437,6 +441,9 @@
             </li>
          </graphicPaths>
       </alienRace>
+	  <race>
+	  <nameGenerator>NamerXaelaMale</nameGenerator>
+	<nameGeneratorFemale>NamerXaelaFemale</nameGeneratorFemale></race>
    </AlienRace.ThingDef_AlienRace>
    
 </Defs>
