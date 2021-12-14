@@ -39,7 +39,7 @@
          <LeatherAmount>75</LeatherAmount>
          <RoyalFavorValue>3</RoyalFavorValue>
          <IncomingDamageFactor>0.95</IncomingDamageFactor>
-         <PawnBeauty>2</PawnBeauty> -->
+         <PawnBeauty>2</PawnBeauty>
       </statBases>
       <tools>
          <li>
