@@ -443,8 +443,10 @@
          </graphicPaths>
       </alienRace>
 	  <race>
-	  <nameGenerator>NamerXaelaMale</nameGenerator>
-	<nameGeneratorFemale>NamerXaelaFemale</nameGeneratorFemale></race>
+	      <nameGenerator>NamerXaelaMale</nameGenerator>
+	      <nameGeneratorFemale>NamerXaelaFemale</nameGeneratorFemale>
+		  <useMeatFrom>AURA_Raen</useMeatFrom>
+	  </race>
    </AlienRace.ThingDef_AlienRace>
    
 </Defs>
