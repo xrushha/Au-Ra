@@ -253,14 +253,6 @@
                               <Thin>(0.31, -0.07)</Thin>
                            </bodyTypes>
                         </east>
-                        <south>
-                           <layerOffset>-0.1</layerOffset>
-                           <bodyTypes>
-                              <Male>(0, -0.29)</Male>
-                              <Female>(0.01, -0.29)</Female>
-                              <Thin>(0, -0.34)</Thin>
-                           </bodyTypes>
-                        </south>
                      </offsets>
                      <drawnInBed>false</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
@@ -385,14 +377,6 @@
                               <Thin>(0.31, -0.07)</Thin>
                            </bodyTypes>
                         </east>
-                        <south>
-                           <layerOffset>-0.1</layerOffset>
-                           <bodyTypes>
-                              <Male>(0, -0.29)</Male>
-                              <Female>(0.01, -0.29)</Female>
-                              <Thin>(0, -0.34)</Thin>
-                           </bodyTypes>
-                        </south>
                      </offsets>
                      <drawnInBed>false</drawnInBed>
                      <drawnDesiccated>true</drawnDesiccated>
